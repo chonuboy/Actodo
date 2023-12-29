@@ -8,7 +8,7 @@ function Landing() {
     var deg=<sup>o</sup>
     return (
         <>
-            <div className='bg-black p-10'>
+            <div className='bg-black py-5 md:p-10'>
                 <div className='bg-white p-8 m-10 border rounded-md'>
                     <Header />
                     <div className='flex justify-between gap-7 m-5 flex-wrap'>
