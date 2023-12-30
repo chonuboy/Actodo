@@ -20,7 +20,7 @@ function Addtodo(props) {
                 
                 <h1 className='text-2xl font-medium'>Manage Activities</h1>
 
-                <div className='flex gap-2'>
+                <div className='flex md:1gap-2'>
                     <input placeholder='New Task' type="text" className='border border-black bg-transparent p-1' value={task} onChange={gettask} />
                     <button className='bg-black text-white p-1' onClick={addtask}>Add</button>
                 </div>
