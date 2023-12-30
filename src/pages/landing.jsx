@@ -9,7 +9,7 @@ function Landing() {
     return (
         <>
             <div className='bg-black py-5 md:p-10'>
-                <div className='bg-white p-6 md:p-10 m-10 border rounded-md'>
+                <div className='bg-white p-6 md:p-10 m-8 md:m-10 border rounded-md'>
                     <Header />
                     <div className='flex justify-between gap-7 m-5 flex-wrap'>
                         <Card color={"#8272DA"} head={"23"} para={"Chennai"} />
