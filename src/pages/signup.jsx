@@ -32,7 +32,7 @@ function Signup(props) {
     console.log(user);    
     return (
         <div className='bg-black p-10'>
-            <div className='bg-white p-6 border rounded-md'>
+            <div className='bg-white p-6 md:p-10 border rounded-md'>
                 <div>
                     <h1 className='text-3xl font-bold'>Welcome New User !</h1>
                     <p>Sign Up Here :)</p>
